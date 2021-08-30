@@ -1,0 +1,28 @@
+.example-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    min-width: 300px;
+  }
+  
+  .mat-table {
+    overflow: auto;
+    max-height: 500px;
+    width: 100%;
+  }
+  
+  i.edit {
+    color: rgba(87, 87, 87, 0.637);
+    margin-right: 20px;
+  }
+
+i.delete {
+  color: rgba(255, 0, 0, 0.473);
+  margin-right: 20px;
+}
+
+i.favorite {
+  color: rgb(245, 22, 22);
+  margin-right: 20px;
+  border-color: black;
+}
